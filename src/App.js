@@ -76,10 +76,10 @@ function App() {
   ]
      return(
       <div className='cont'>
-         <BrowserRouter>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Header/>
             <Routes>
-              <Route path = "/narayana" element = {<All/>}/>   
+              <Route path = "/" element = {<All/>}/>   
               <Route path = "/skills" element = {<Skills/>}/>
               <Route path = "/project" element = {<Project/>}/>
               <Route path = "/youtube" element = {<Youtube/>}/>
