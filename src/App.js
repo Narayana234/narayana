@@ -79,7 +79,7 @@ function App() {
          <BrowserRouter basename="/narayana">
           <Header/>
             <Routes>
-              <Route path = "/narayana" element = {<All/>}/>   
+              <Route path = "/" element = {<All/>}/>   
               <Route path = "/skills" element = {<Skills/>}/>
               <Route path = "/project" element = {<Project/>}/>
               <Route path = "/youtube" element = {<Youtube/>}/>
