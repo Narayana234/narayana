@@ -79,6 +79,7 @@ function App() {
          <BrowserRouter basename="/narayana">
           <Header/>
             <Routes>
+            <Route exact path="/"  element = {<All/>}/> 
               <Route  exact path = "/main" element = {<All/>}/>   
               <Route path = "/skills" element = {<Skills/>}/>
               <Route path = "/project" element = {<Project/>}/>
@@ -91,6 +92,7 @@ function App() {
               <Route path = "/speed" element = {<Speedometer/>}/>
               <Route path ="/light" element = {<LightDarkMode/>}/>
               <Route path ="/todo" element = {<SimpleTodos/>}/>
+             
             </Routes>
           </BrowserRouter>
       </div>

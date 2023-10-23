@@ -15,7 +15,7 @@ const Profile = () =>(
           </Link> 
           </div>
           <div>
-            <img src ="/images/my_image.jpg" alt ="my_imag" className="img-cont"/>
+            <img src ="./images/my_image.jpg" alt ="my_imag" className="img-cont"/>
           </div>
     </div>
 )
