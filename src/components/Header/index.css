@@ -1,0 +1,45 @@
+.main-cont{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    padding-left: 20px;
+    position: fixed;
+    padding-right: 50px;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(70, 41, 97);
+}
+.header-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.h-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgb(180, 133, 223);
+    margin-right: 40px;
+
+}
+
+
+.h-li{
+    font-size: 25px;
+    margin-right: 40px;
+    color: silver;
+    font-weight: bold;
+    text-decoration: none;
+}
+.h-li:hover{
+   font-size: 30px;
+   text-decoration: none;
+   color: aqua;
+   font-family: bold;
+   cursor: pointer;
+}
